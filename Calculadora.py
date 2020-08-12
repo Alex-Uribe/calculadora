@@ -17,7 +17,6 @@ print()
 print()
 
 operadores = ['+', '-', '*', '/']
-valores = float
 
 operacion = input('Ingresa el simbolo de la operacion a realizar: \n')
 
@@ -46,7 +45,6 @@ while True:
 
     else:
         break
-
 
 if operacion == '+':
     mas = valor1 + valor2
